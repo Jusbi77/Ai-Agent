@@ -55,6 +55,7 @@ public class WebSearchTool {
             // 3. 解析 JSON，提取第一个 content
             JSONObject jsonObj = JSONUtil.parseObj(response.body());
             // 从 choices 数组取第一个元素 → 取 message 对象 → 取 content
+            //body中有references 字段，就是说参考的网址链接，title
             String targetContent = jsonObj.getJSONArray("choices")
                     .getJSONObject(0)
                     .getJSONObject("message")

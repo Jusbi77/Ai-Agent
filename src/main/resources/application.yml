@@ -52,9 +52,6 @@ knife4j:
   enable: true
   setting:
     language: zh_cn
-# searchAPI
-search-api:
-  api-key: bce-v3/ALTAK-8WlY8LpSYcHCOkSOd5G5u/b906a60ba0158dffe182a50f0c2fe855edca2986
 # 修改日志级别，查看 Spring AI 更多调用细节
 logging:
   level:

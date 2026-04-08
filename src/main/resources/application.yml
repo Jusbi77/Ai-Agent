@@ -11,14 +11,10 @@ spring:
   ai:
     dashscope:
       # 需要替换为你自己的 key
-      api-key: your-api-key
+      api-key: sk-3aa6b487d4354e78acefd594ac94e4c5
       chat:
         options:
           model: qwen-plus
-    ollama:
-      base-url: http://localhost:11434
-      chat:
-        model: gemma3:1b
 # 临时注释掉，便于大家开发调试和部署（实际需要启动 MCP 服务）
 #    mcp:
 #      client:
@@ -58,8 +54,7 @@ knife4j:
     language: zh_cn
 # searchAPI
 search-api:
-  # 需要替换为你自己的 key
-  api-key: 你的 API Key
+  api-key: bce-v3/ALTAK-8WlY8LpSYcHCOkSOd5G5u/b906a60ba0158dffe182a50f0c2fe855edca2986
 # 修改日志级别，查看 Spring AI 更多调用细节
 logging:
   level:
